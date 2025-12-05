@@ -2,6 +2,8 @@
 
 A minimal viable product (MVP) demonstrating the "build a minimal viable product, then iterate" approach.
 
+**Repository**: [https://github.com/KyPython/good-enough-soup](https://github.com/KyPython/good-enough-soup)
+
 ## MVP v1 Scope
 
 **What it does:**
