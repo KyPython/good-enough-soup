@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import './EntryForm.css';
 
-interface Entry {
-  id: string;
-  date: string;
-  text: string;
-}
-
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
 const EntryForm: React.FC = () => {
