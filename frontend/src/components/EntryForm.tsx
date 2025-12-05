@@ -7,7 +7,7 @@ interface Entry {
   text: string;
 }
 
-const API_URL = 'http://localhost:3001';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
 const EntryForm: React.FC = () => {
   const [date, setDate] = useState(() => {
