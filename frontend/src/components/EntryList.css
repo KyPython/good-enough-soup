@@ -1,0 +1,55 @@
+.EntryList {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.EntryList h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.loading,
+.error,
+.empty {
+  padding: 20px;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.entries-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.entry-item {
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-left: 3px solid #3498db;
+  border-radius: 4px;
+}
+
+.entry-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #7f8c8d;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.entry-text {
+  color: #2c3e50;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
